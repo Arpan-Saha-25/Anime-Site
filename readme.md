@@ -30,4 +30,4 @@ This project was created by **Arpan Saha**. If you have any suggestions or feedb
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is open-source. Feel free to contribute.
