@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+:root {
+    --text-dark: #0d213f;
+    --text-light: #767268;
+    --extra-light: #ffffff;
+    --max-width: 1200px;
+    --primary-color: #ff0000; /* Define primary color */
+    --primary-color-dark: #cc0000; /* Define primary color dark */
+    --secondary-color: #f0f0f0; /* Define secondary color */
+}
+
+header {
+    background: url(img/bg.jpg) no-repeat center center/cover;
+    color: red;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header::before {
+    content: "";
+    background: rgba(1, 0, 19, 0.45);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+nav {
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: var(--max-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.nav__logo img {
+    width: 45px;
+}
+
+.nav__logo span {
+    color: var(--primary-color);
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* a:hover{
+    color: #cc0000;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+} */
+
+.link a {
+    padding: 0 1rem;
+    transition: 0.3s;
+    color: white;
+}
+
+.link a:hover {
+    color: var(--primary-color);
+}
+
+.btn {
+    padding: 0.75rem 2rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--extra-light);
+    background-color: red;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.btn:hover {
+    background-color: var(--primary-color-dark);
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.section__container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+    position: relative;
+    z-index: 2;
+}
+
+.section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.section__title { 
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    margin-bottom: 1rem ;
+}
+
+.section__subtitle {
+    font-size: 1rem;
+    color: white;
+    max-width: calc(var(--max-width) / 2);
+}
+
+.header__container {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.header__image {
+    position: relative;
+    height: 100%;
+}
+
+.header__image img {
+    position: absolute;
+    border: 0.3rem solid var(--extra-light);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.image1 {
+    max-width: 350px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.image2 {
+    max-width: 250px;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 3;
+}
+
+.header__content > div {
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+.header__content h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 800;
+    color: white;
+    z-index: 1;
+}
+
+.action__btns {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+.video__image {
+    position: relative;
+}
+
+.video__image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.video__image span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video__image span i {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: red;
+    background-color: var(--extra-light);
+    border-radius: 100%;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.story > span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+
+.link a:hover {
+    color: var(--primary-color);
+}
+
+#text1 {
+    color: rgba(255, 208, 0, 0.737);
+}
