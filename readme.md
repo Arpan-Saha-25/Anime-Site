@@ -18,7 +18,7 @@ This project is a simple video streaming website focused on anime and manga cont
 
 1. 🔄 Clone the repository or download the source files.
 2. 🌐 Open `index.html` in your preferred browser.
-3. 📂 Browse through the available anime and manga content from the navigation menu.
+3. 📂 Browse through the available anime and manga content from the navigation menu. (On progress)
 
 ## 🎬 Demo
 
