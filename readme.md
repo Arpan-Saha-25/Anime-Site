@@ -2,6 +2,8 @@
 
 This project is a simple video streaming website focused on anime and manga content. It is built using only **HTML** and **CSS**, with a clean and responsive layout. The website allows users to browse and view their favorite anime episodes and manga chapters.
 
+Link : https://arpan-saha-25.github.io/Anime-Site/
+
 ## 🌟 Features
 
 - 📺 **Anime Streaming**: Users can stream anime episodes directly from the site.
